@@ -14,7 +14,7 @@ function App() {
     <div
       className="App"
     >
-      {location.pathname == "/" || location.pathname === "/signup" ? (
+      {location.pathname === "/" || location.pathname === "/signup" ? (
         ""
       ) : (
         <Navbar />
